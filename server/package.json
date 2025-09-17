@@ -1,0 +1,21 @@
+{
+  "name": "task-management-backend",
+  "version": "1.0.0",
+  "description": "A Task management application for students, freelancer and small-size teams",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "vinayak madivalar",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
