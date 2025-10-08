@@ -25,7 +25,7 @@ router.route("/refresh-token").post(refreshAccessToken);
 
 // protected routes
 router.route("/logout").post(verifyJWT, logoutUser);
-router.route("/current-user").post(verifyJWT, getCurrentUser);
+router.route("/current-user").get(verifyJWT, getCurrentUser);
 router
   .route("/resend-email-verification")
   .post(verifyJWT, resendEmailVerification);
